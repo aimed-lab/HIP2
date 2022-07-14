@@ -1,0 +1,74 @@
+Sample_ID	Ethnic_group	Sex	Sample_Prep. Method	Protein Seperation 	Material Type	Peptide seperation	Depletion methods	Reduction methods	Quality Score
+HUPO_L1.01	Caucasian-American	ND	Sodium citrate	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L1.02	Caucasian-American	ND	EDTA	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L1.03	Caucasian-American	ND	Lithium heparin	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L1.04	Caucasian-American	ND	clot at room temp.	none	Serum	rp/scx/rp	aig	iam	
+HUPO_L1.05	African-American	ND	Sodium citrate	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L1.06	African-American	ND	Lithium heparin	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L1.07	African-American	ND	clot at room temp.	none	Serum	rp/scx/rp	aig	iam	
+HUPO_L1.08	Asian-American	ND	clot at room temp.	none	Serum	rp/scx/rp	aig	iam	
+HUPO_L2.01	Caucasian-American	ND	Sodium citrate	cho affinity	Plasma	scx/rp	none	iam	
+HUPO_L2.02	Caucasian-American	ND	clot at room temp.	cho affinity	Serum	scx/rp	none	iam	
+HUPO_L2.03	UK national	ND		cho affinity	Plasma	scx/rp	none	iam	
+HUPO_L11.01	Caucasian-American	ND	Sodium citrate	cho affinity	Plasma	rp	none	iam	
+HUPO_L11.02	Caucasian-American	ND	EDTA	cho affinity	Plasma	rp	none	iam	
+HUPO_L11.03	Caucasian-American	ND	Lithium heparin	cho affinity	Plasma	rp	none	iam	
+HUPO_L11.04	Caucasian-American	ND	clot at room temp.	cho affinity	Serum	rp	none	iam	
+HUPO_L12.01	Caucasian-American	ND	Sodium citrate	none	Serum	rp/scx/rp	aig	iam	
+HUPO_L12.02	Caucasian-American	ND	EDTA	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L12.03	Caucasian-American	ND	Lithium heparin	none	Plasma	rp/scx/rp	aig	iam	
+HUPO_L12.04	Caucasian-American	ND	clot at room temp.	none	Serum	rp/scx/rp	aig	iam	
+HUPO_L17.01	Caucasian-American	ND	clot at room temp.	1s sds	Plasma	rp	aig	iam	
+HUPO_L21.01	Caucasian-American	ND	Sodium citrate	rotofor-ief/rp/1d-sds	Plasma	rp	top6	iam	
+HUPO_L21.02	Caucasian-American	ND	Sodium citrate	rotofor-ief/rp/1d-sds	Plasma	none	top6	none	
+HUPO_L21.03	Caucasian-American	ND	Sodium citrate	rotofor-ief/rp/1d-sds	Plasma	rp	top6	none	
+HUPO_L21.04	Caucasian-American	ND	EDTA	rotofor-ief/rp/1d-sds	Plasma	rp	top6	iam	
+HUPO_L21.05	Caucasian-American	ND	EDTA	rotofor-ief/rp/1d-sds	Plasma	none	top6	none	
+HUPO_L21.06	Caucasian-American	ND	EDTA	rotofor-ief/rp/1d-sds	Plasma	rp	top6	none	
+HUPO_L21.07	Caucasian-American	ND	clot at room temp.	rotofor-ief/rp/1d-sds	Serum	rp	top6	iam	
+HUPO_L21.08	Caucasian-American	ND	clot at room temp.	rotofor-ief/rp/1d-sds	Serum	none	top6	none	
+HUPO_L21.09	Caucasian-American	ND	clot at room temp.	rotofor-ief/rp/1d-sds	Serum	rp	top6	none	
+HUPO_L22.01	Caucasian-American	ND	clot at room temp.	1s sds	Serum	rp/scx/rp	top6	iam	
+HUPO_L24.01	Caucasian-American	ND	clot at room temp.	rp	Serum	rp	a	iam	
+HUPO_L24.02	Caucasian-American	ND	clot at room temp.	rp	Serum	rp	none	iam	
+HUPO_L26.01	African-American	ND	Sodium citrate	rotofor-ief/1d-sds	Plasma	rp	none	iam	
+HUPO_L28.01	Caucasian-American	ND	Sodium citrate	none	Plasma	rp	ig	none	
+HUPO_L28.02	Caucasian-American	ND	clot at room temp.	none	Serum	rp	ig	none	
+HUPO_L28.03	African-American	ND	Sodium citrate	none	Plasma	rp	ig	none	
+HUPO_L28.04	African-American	ND	clot at room temp.	none	Plasma	rp	ig	none	
+HUPO_L28.05	Asian-American	ND	Sodium citrate	none	Plasma	rp	ig	none	
+HUPO_L28.06	Asian-American	ND	clot at room temp.	none	Serum	rp	ig	none	
+HUPO_L29.01	Caucasian-American	ND	Sodium citrate	none	Plasma	scx/rp	top6	iam	
+HUPO_L29.02	Caucasian-American	ND	Sodium citrate	none	Plasma	scx/rp/2mz	top6	iam	
+HUPO_L29.03	Caucasian-American	ND	EDTA	none	Plasma	scx/rp	top6	iam	
+HUPO_L29.04	Caucasian-American	ND	EDTA	none	Plasma	scx/rp/2mz	top6	iam	
+HUPO_L29.05	Caucasian-American	ND	Lithium heparin	none	Plasma	scx/rp	top6	iam	
+HUPO_L29.06	Caucasian-American	ND	clot at room temp.	none	Serum	scx/rp	top6	iam	
+HUPO_L29.07	Chinese	ND	Sodium citrate	none	Plasma	scx/rp/2mz	top6	iam	
+HUPO_L29.08	Chinese	ND	EDTA	none	Plasma	scx/rp/2mz	top6	iam	
+HUPO_L29.09	Chinese	ND	Lithium heparin	none	Plasma	scx/rp/2mz	top6	iam	
+HUPO_L29.10	Chinese	ND	clot at room temp.	none	Serum	scx/rp/2mz	top6	iam	
+HUPO_L29.11	UK national	ND		none	Plasma	scx/rp/2mz	top6	iam	
+HUPO_L33.01	UK national	ND		ffe/rp	Plasma	rp/ziptip	top6	none	
+HUPO_L33.02	UK national	ND		ffe/rp	Plasma	rp/ziptip	top6	none	
+HUPO_L34.01	Caucasian-American	ND	Lithium heparin	zoom-ief/1d-sds  	Plasma	rp	top6	iam	
+HUPO_L34.02	Caucasian-American	ND	clot at room temp.	zoom-ief/1d-sds  	serum	rp	top6	iam	
+HUPO_L40.01	Caucasian-American	ND	Lithium heparin	aig affinity/rp	Plasma	scx/rp	none	iam	
+HUPO_L41.01	Caucasian-American	ND	Sodium citrate	gradiflow/tca	Plasma	scx/rp	none	none	
+HUPO_L41.02	Caucasian-American	ND	EDTA	gradiflow/tca	Plasma	scx/rp	none	none	
+HUPO_L41.03	Caucasian-American	ND	Lithium heparin	gradiflow/tca	Plasma	scx/rp	none	none	
+HUPO_L41.04	Caucasian-American	ND	clot at room temp.	gradiflow/tca	Serum	scx/rp	none	none	
+HUPO_L41.05	UK national	ND		gradiflow/tca	Plasma	scx/rp	none	none	
+HUPO_L43.01	Caucasian-American	ND	Sodium citrate	none	Plasma	rp	aig	iam	
+HUPO_L43.02	Caucasian-American	ND	EDTA	none	Plasma	rp	aig	iam	
+HUPO_L43.03	Caucasian-American	ND	Lithium heparin	none	Plasma	rp	aig	iam	
+HUPO_L43.04	Caucasian-American	ND	Lithium heparin	none	Plasma	rp	aig	iam	
+HUPO_L43.05	Caucasian-American	ND	clot at room temp.	none	Serum	rp	aig	iam	
+HUPO_L43.06	UK national	ND		none	Plasma	rp	aig	iam	
+HUPO_L46.01	Chinese	ND	clot at room temp.	none	Plasma	rp	top6	iam	
+HUPO_L55.01	Caucasian-American	ND	Sodium citrate	sax	Plasma	rp	none	iam	
+IUBPPM_L1.01	unknown	ND	EDTA	none	Plasma	SCX	none	none	
+PEPATLAS_L1.01	unknown	ND	unknown	unknown	Blood	unknown	unknown	unknown	
+PEPATLAS_L2.01	unknown	ND	unknown	unknown	Plasma	unknown	unknown	unknown	
+PEPATLAS_L3.01	unknown	ND	unknown	unknown	Serum	unknown	unknown	unknown	
+PEPATLAS_L4.01	unknown	ND	unknown	unknown	Unknown	unknown	unknown	unknown	

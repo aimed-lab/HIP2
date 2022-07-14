@@ -1,0 +1,574 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+        <title>Healthy Human Individual's Integrated Plasma Proteome - the HIP-2 Database</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="AUTHOR" content="Sudipto saha">
+        <meta name="PUBLISHER" content="Sudipto Saha">
+        <meta name="description" content="plasma protein catalog of healthy individuals containing experimental evidence">
+        <meta name="keywords" content="Plasma proteins, Experimental Evidence, Mass Spectrometry, Proteomics, Peptides">
+
+ <style type="text/css">
+<!--
+.style1 {color: #FFFF00}
+.style2 {color: #FFFFFF}
+.style5 {
+        color: #FF0000;
+        font-style: italic;
+}
+.style6 {
+	color: #FF3300;
+	font-style: italic;
+	font-weight: bold;
+}
+.style7 {
+	color: #FF3300;
+	font-weight: bold;
+}
+.style9 {color: #FF3300}
+-->
+        </style>
+
+
+
+</head>
+
+<body bgColor=white >
+<table border="0">
+  <tr>
+    <td width="100%"><a href="http://bio.informatics.iupui.edu/"><img src="/img/IUPUI_group_logo.gif" alt="" name="IUPUI_Seal" width="745" height="97" border="0"></a> </td>
+  </tr>
+</table>
+
+
+            <table width=100% border=0 bgcolor="#669999">
+   <tr>
+          <td align="center" valign="center" bgcolor="#669999" width="95%" height="20">
+
+           <span class="style1"><font face="Verdana, Arial, Helvetica, sans-serif" ><strong>H</strong><span class="style5">h</span>-<strong>I</strong><span class="style5">i</span>-<strong>P</strong><span class="style5">p </span><span class="style2"> Help Page </span></font></span>     </td>
+
+          <td height=20 align=right bgcolor="#669999"><font color=white face="Verdana, Arial, Helvetica, sans-serif" size="1">
+   <a href='http://bio.informatics.iupui.edu/HIP2/'>Back to Search</a>    </td>
+</tr>
+</table>
+
+
+
+
+
+
+            <ul>
+              <li><a href="#whathip2">What is <font sixe="20">HIP<sup>2</sup>?</font></a></li>
+              <li><a href="#howpronounce">How should I pronounce <font sixe="20">HIP<sup>2</sup>?</font></a></li>
+              <li><a href="#whyhip2">Why should I use HIP<sup>2</sup>?</a></li>
+              <li><a href="#whyhealthy">Why  focus on plasma proteome for healthy individuals<font sixe="20"></font> only?</a></li>
+              <li><a href="#howhip2">How is the HIP<sup>2</sup> designed?</a> </li>
+              <li><a href="#questionhip2">What types of questions will I be able to answer by querying the HIP<sup>2</sup> database?</a> </li>
+              <li><a href="#queryinfo">How do I enter information in the main database query page?</a></li>
+              <li><a href="#infoobtain">What  information can I obtain from the database?</a></li>
+              <li><a href="#proteinpage">How is information on the "Protein Page" organized?</a></li>
+              <li><a href="#expinfopage">How is information on the "Peptide Page" organized?</a></li>
+              <li><a href="#expinfopage">How is information on the "Experimental Information Page" organized?</a></li>
+            </ul>
+<h3>What is <font sixe="20">HIP<sup>2</sup></font>?<a name="whathip2"></a></h3>
+            <p>HIP<sup>2</sup> is a  web based database which stands for <strong>H</strong>ealthy <strong>H</strong>uman <strong>I</strong>ndividuals' <strong>I</strong>ntegrated <strong>P</strong>lasma  <strong>P</strong>roteome. The database provides comprehensive information on plasma proteins detected from the blood of &quot;healthy&quot; or &quot;normal&quot; individuals (defined as healthy human adults without major life-threatening disease,  known genetic diseases, HIV, or inflammation at the time of blood drawing), using different tandem  mass spectrometry techniques. </p>
+            <h3>How should I pronounce <font sixe="20">HIP<sup>2</sup>?</font><a name="howpronounce"></a></h3>
+            <p>We pronounce it as <span class="style6">Hip Two</span>. While excited, we also tend to yell out <span class="style5"><strong>Hip-Hip</strong></span>, since the original initials of the database name contains two H's, two I's and two P's. The mathematically oriented folks think we are weird and the normal way of saying the name should be &quot;<span class="style7">Hip squared</span>&quot;, both for the superscript position of the number 2 and the augmented reality emotion that this version could bring forth. So, it's really up to our reader to decide which version is the &quot;<strong><span class="style9">hip</span>pest</strong>&quot; to be adopted.</p>
+            <h3>Why should I use <font sixe="20">HIP<sup>2</sup></font>?<a name="whyhip2"></a></h3>
+<p>The HIP<sup>2</sup> database provides protein biologists and clinical biomedical researchers with new opportunities to investigate which proteins may be used for future biomarker research, by comparing plasma proteomics results from patients with diseases such as cancer, neurodegenarative diseases, metabolic diseases, and other genetic disorders. The HIP<sup>2</sup> provides first such &quot;background&quot; information on which proteins are expected, with ample peptide sequence as evidence, in health individual's plasma. </p>
+            <h3>Why  focus on plasma proteome for healthy individuals<font sixe="20"><sup></sup></font> only?<a name="whyhealthy"></a></h3>
+            <p>Many shot-gun proteomics experiments performed today can only observe a few hundred high- to medium- abundant proteins, due to limitations of instrument detection dynamic range, wide range of protein concentrations in blood, and difficulty with protein separations. An exhausive search of all MS spectra against all theoretical peptide patterns are also not possible on a routine basis. These technical barriers have made it difficult to consistently observe &quot;low abundant&quot; but expected plasma proteins from healthy individual plasma samples. This limitation results in an effective &quot;stochastic sampling&quot; process to observe any &quot;normal and expected&quot; proteins in well controlled experiments. Therefore, it is essential to compare proteomics results from  &quot;treated&quot; or &quot;diseased&quot; samples obtained from any particular proteomics platform against &quot;normal and expected&quot; proteomics results obtained from all proteomics platforms in a database such as <font sixe="20">HIP<sup>2</sup></font>. We want to remain focused on this mission. For general repository of peptide mapping and proteomics data repository for human plasma, refer to the <a href="http://www.proteomecommons.org/data.jsp">ProteomeCommons.Org</a> Data Project and our manuscript.<a name="ref"></a></p>
+            <blockquote>
+              <p>Sudipto Saha, Scott  Harrison, Changyu Shen, Haixu Tang, Predrag Radivojac, Randy J  Arnold, Xiang Xhang, and  Jake<strong> </strong>Yue<strong> </strong>Chen (2008)<a href="http://www.biomedcentral.com/1755-8794/1/12/abstract"><strong>HIP2: An Online Database of Human Plasma Proteins from Healthy Individuals</strong></a>.<em> BMC Medical Genomics</em>, 2008, <strong>1</strong>:12.</p>
+</blockquote>
+<h3>How is the HIP<sup>2</sup> designed?<a name="howhip2"></a></h3>
+<p>We show in the following figure the overall design of the database. User queries are connected to the backend database, which is implemented using Oracle10G relational database system hosted at Indiana University High-performance Computing Facilities. The query box will direct results to user queries into one of the three web pages, protein page, peptide page, and experimental information page. The database result pages are also  linked to external web pages. </p>
+            <p align="center"><img src="Query_help.jpg" width="602" height="473"></p>
+            <h3>What types of questions will I be able to answer by querying the HIP<sup>2</sup> database?<a name="questionhip2"></a></h3>
+            <p>The HIP<sup>2</sup> database, although simple in its GUI, is quite powerful in searching for all known healthy human plasma proteins, as long as the peptide evidence and the protein are published and included in our database. Particularly, the database can answer the following sample questions posed by our users easily: </p>
+            <ul>
+              <li>  <em><strong>Has my favoriate protein, X, been observed in plasma proteome before?
+                </strong></em>
+                <ul>
+                  <li>Use  1 and 3              B. (Refer to the figure above for number references, <em>ibid</em>. Examine protein-peptide mapping for the protein) </li>
+                </ul>
+              </li>
+              <li><em><strong>What are all the evidence for me to judge  the confidence level of protein X's presence healthy plasma proteome or not? </strong>
+              </em>
+                <ul>
+                  <li>Use 1, 3, 6, 8 and 5             C. (Investigate peptide number, protein-peptide alignment, and trypsin cut match information) </li>
+                </ul>
+              </li>
+              <li><strong><em>For groups of similar proteins (e.g., different variants from the same gene), how are they currently represented on the Plasma Proteome and is there a gap of knowledge?
+                </em>
+              </strong>
+                <ul>
+                  <li>1, 3, 4 and 5             D. (Find a common peptide for all the similar proteins, search through peptide, and examine protein reports and peptide-protein alignment map) </li>
+                </ul>
+              </li>
+              <li><strong><em>Are there other proteins having same peptides that could belong to healthy plasma?
+                </em>
+              </strong>
+                <ul>
+                  <li>1, 2, 3, 6 and 8             E. (Find a common peptide for all the similar proteins, examine missing plasma protein report on one of the protein, and examine peptide-protein alignment map) </li>
+                </ul>
+              </li>
+              <li><strong><em>Are there other proteins having same peptides that may not belong to healthy plasma?
+                </em>
+                </strong>
+                <ul>
+                  <li>1, 2, 3, 6 and 8 (Find a common peptide for all the similar proteins, examine  plasma protein report on one of the protein to see if the evidence is weak or not, and examine peptide-protein alignment map to see if the trypsin cut match is good or not for the matched peptide) </li>
+                </ul>
+              </li>
+            </ul>
+            <h3>How do I enter information in the main database query page?<a name="queryinfo"></a></h3>
+You may enter your query with one of the two query types: 
+<ul>
+  <li><strong>A protein query.</strong>  You may enter a protein's  accession numbers, which can be IPI number, Swiss-Prot ID, GI number, Vega ID, gene name, or Uniprot Name, in the "Enter a protein" field</li>
+  <li><strong>A peptide query.</strong> You may enter a peptide sequence, using single letter representation for each amino acid in the sequence, without spaces up to 4000 letters.</li>
+</ul>
+<h3>What  information can I obtain from the database?<a name="infoobtain"></a></h3>
+You may expect three types of information pages, with each page type corresponding to a group of information relevant to your search query:
+<ul>
+  <li><strong>The Protein Page.</strong> You will obtain information whether a protein is in the health human individual's plasma proteome, what function it has, what peptides can be mapped to the protein, and how the peptides are aligned according to trypsin diggestion rules. </li>
+  <li><strong>The Peptide Page.</strong> You will obtain information whether a peptide may be mapped to any protein in the IPI database, and if so, whether the protein may be mapped to a health human individual's plasma protein. If the protein containing the peptide is found in the <font sixe="20">HIP<sup>2</sup></font> database, summary protein information and all peptide evidence information available on the protein will be shown. Additionally, alignment of the query peptide on all the IPI proteins are shown.</li>
+  <li><strong>The Experimental Information Page.  </strong>You will obtain detailed information on the sample collection/treatment and experimental details.</li>
+</ul>
+<h3>How is information on the  &quot;Protein Page&quot; organized?<a name="proteinpage"></a></h3>
+<p><font sixe="20">There are three types of information associated with each protein, if it is found in the HIP<sup>2</sup> database. They are:</font></p>
+<ol>
+  <li><strong>Protein Summary. </strong>For example, the following shows a summary of protein IPI00000138, with all common protein accession numbers, and brief function descriptions. </li>
+<br>
+  <table cellspacing="0" cellpadding="0" align="center">
+    <tr>
+      <td colspan="7" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Protein Summary </strong></font></td>
+    </tr>
+    <tr>
+      <td width="5"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="6"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td width="226" colspan="1" valign="center" bgcolor="#ddffff">IPI ID </td>
+      <td width="484" colspan="5" valign="top"><a href="http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-id+564Tp1VVvvs+%5Bipi-AccNumber:IPI00000138%5D+-e">IPI00000138.1 </a></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Sequence Length (A.A. Residues)</td>
+      <td colspan="5" valign="top">445</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Uniprot Name</td>
+      <td colspan="5" valign="top"><a href="http://www.ebi.uniprot.org/uniprot-srv/uniProtView.do?proteinId=MGAT1_HUMAN&amp;pager.offset=null">MGAT1_HUMAN </a></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">SwissProt ID</td>
+      <td colspan="5" valign="top"><a href="http://ca.expasy.org/uniprot/P26572">P26572</a></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Related SwissProt/TrEMBL IDs</td>
+      <td colspan="5" valign="top">P26572</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">RefSeq ID</td>
+      <td colspan="5" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=protein&amp;id=NP_002397">NP_002397 </a></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Vega ID</td>
+      <td colspan="5" valign="top"><a href="http://vega.sanger.ac.uk/Homo_sapiens/protview?peptide=OTTHUMP00000161546&amp;db=core">OTTHUMP00000161546</a></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Gene Symbol</td>
+      <td colspan="5" valign="top"><a href="http://www.dsi.univ-paris5.fr/genatlas/fiche.php?symbol=MGAT1">MGAT1</a></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Description</td>
+      <td colspan="5" valign="top">Alpha-1,3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="center">Functional Keywords</td>
+      <td colspan="5" valign="top">Glycosyltransferase; Golgi stack; Signal-anchor; Transferase;Transmembrane.</td>
+    </tr>
+  </table>
+  <br>
+  <li><strong>Experimental Evidence. </strong>For example, the following is a partial view of the peptide results mapped to the query protein IPI00000138. Only 2 of the 6 peptide results are shown. Note that <em>Experimental KeyCode</em> is a field that we use to distinguish one experiment from another. <em>Experimental Type</em> is the separation/mass spectrometry platform used to acquire the raw data. <em>Search Software</em> is the bioinformatics tool used to identify the peptide from the raw data.  The hyperlink in this field directs the user to the homepage for the software. Any known posttranslational modifications are listed in the <em>Posttranslational Modification</em> field - if none are known to exist, the field reports "unknown".  <em>PubMed Reference</em> is the journal article reference source of the data.  The Comments field contains other information about the data, such as ion charge state, signal intensity, peptide identification score, and peptide identification score thresholds.</li>
+  <br>
+
+    <table cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td colspan="7" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Experimental Evidence </strong> </font></td>
+      </tr>
+      <tr> </tr>
+      <tr>
+        <td width="5"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="2" width="1"> </td>
+        <td colspan="6"></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="3" width="1"> </td>
+        <td width="197" colspan="1" valign="center" bgcolor="#ddffff">Total Peptide(s) Mapped</td>
+        <td width="313" colspan="5" valign="top"><strong>6</strong> </td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="6"></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#bbffff" valign="center">Peptide Sequence #1</td>
+        <td colspan="5" valign="top"><a href="http://discover.uits.indiana.edu:8340/PlasmaProteins/hip_peptide_evidence.php?peptide=GLLQQIGDALSSQRGRVPTAAPPAQPR">GLLQQIGDALSSQRGRVPTAAPPAQPR</a></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Experiment KeyCode</td>
+        <td colspan="5" valign="top"><a href="http://discover.uits.indiana.edu:8340/PlasmaProteins/hip_exp_evidence.php?exp=PEPATLAS_E1.01">PEPATLAS_E1.01</a> </td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Experimental Type</td>
+        <td colspan="5" valign="top">LC-MS/MS</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Search Software</td>
+        <td colspan="5" valign="top"><a href="http://fields.scripps.edu/sequest/">SEQUEST</a></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Posttranslational Modification</td>
+        <td colspan="5" valign="top">unknown</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">PubMed Reference</td>
+        <td colspan="5" valign="top">Proteomics_2005_vol5_pp3497</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Comments</td>
+        <td colspan="5" valign="top">PeptideProphet probability 0.97</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="2" width="1"> </td>
+        <td colspan="6"></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#bbffff" valign="center">Peptide Sequence #2</td>
+        <td colspan="5" valign="top"><a href="http://discover.uits.indiana.edu:8340/PlasmaProteins/hip_peptide_evidence.php?peptide=ALGVMDDLK">ALGVMDDLK</a></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Experiment KeyCode</td>
+        <td colspan="5" valign="top"><a href="http://discover.uits.indiana.edu:8340/PlasmaProteins/hip_exp_evidence.php?exp=IUBPPM_E1.01">IUBPPM_E1.01</a> </td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Experimental Type</td>
+        <td colspan="5" valign="top">IMS-MS/MS_TOF</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Search Software</td>
+        <td colspan="5" valign="top"><a href="http://www.matrixscience.com/">MASCOT</a></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Posttranslational Modification</td>
+        <td colspan="5" valign="top">unknown</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">PubMed Reference</td>
+        <td colspan="5" valign="top">J Am Soc Mass Spectrom_2007_vol18_pp1249</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#ddffff" valign="center">Comments</td>
+        <td colspan="5" valign="top">Z=3 Intensity=2.47E+03 Score=35</td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="2" width="1"> </td>
+        <td colspan="6"></td>
+      </tr>
+      <tr>
+        <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+        <td colspan="1" bgcolor="#bbffff" valign="center"></td>
+      </tr>
+    </table>
+  <br> <li><strong>Protein-peptide Alignment Map.</strong>   This map displays the full protein sequence (the first sequence in the alignment map) with trypsin cleavage sites (K & R, not followed by P) in red with other amino acids in black.  Identified peptides are displayed in green below the corresponding sequence in the protein. The peptides are shown in the order when they were referred to initially in the <em>Experimental Evidence</em> table. Non-tryptic sequences can be readily determined by comparing the identified peptides to the trypsin cleavage sites in the full protein sequence. The following is an example showing all 6 peptides that were mapped to the protein IPI00000138 by the underlying experiments. </li>
+</ol>
+<table cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="7" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Protein-Peptide Alignment Map </strong></font></td>
+  </tr>
+  <tr>
+    <td width="11"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+    <td colspan="6" width="807"><pre>0<br>|<br>ML<font color="red">K</font><font color="red">K</font>QSAGLVLWGAILFVAWNALLLLFFWTRPAPGRPPSVSALDGDPASLT<font color="red">R</font>EVI<font color="red">R</font>LAQDAEVELE<font color="red">R</font>Q<font color="red">R</font>GLLQQIGDALSSQ<font color="red">R</font>G<font color="red">R</font>VPTAAPPAQP<font color="red">R</font>VPVT<br><font color="gray">---------------------------------------------------------------------</font><font color="green">GLLQQIGDALSSQRGRVPTAAPPAQPR</font><font color="gray">----</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">---</font><font color="green">KQSAGLVLWGAILFVAWNALLLLFFWTRPAPGRPPSVSALDGDPASLTR</font><font color="gray">------------------------------------------------</font><br><font color="gray">------------------------------------------------------------------------------------------------</font><font color="green">VPVT</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br>100<br>|<br>PAPAVIPILVIACD<font color="red">R</font>STV<font color="red">R</font><font color="red">R</font>CLD<font color="red">K</font>LLHYRPSAELFPIIVSQDCGHEETAQAIASYGSAVTHI<font color="red">R</font>QPDLSSIAVPPDH<font color="red">R</font><font color="red">K</font>FQGYY<font color="red">K</font>IA<font color="red">R</font>HY<font color="red">R</font>WALGQVF<font color="red">R</font>QF<br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="green">PAPAVIPILVIACDRSTVR</font><font color="gray">---------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br>200<br>|<br><font color="red">R</font>FPAAVVVEDDLEVAPDFFEYF<font color="red">R</font>ATYPLL<font color="red">K</font>ADPSLWCVSAWNDNG<font color="red">K</font>EQMVDASRPELLY<font color="red">R</font>TDFFPGLGWLLLAELWAELEP<font color="red">K</font>WP<font color="red">K</font>AFWDDWM<font color="red">R</font>RPEQ<font color="red">R</font>QG<br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br>300<br>|<br><font color="red">R</font>ACIRPEIS<font color="red">R</font>TMTFG<font color="red">R</font><font color="red">K</font>GVSHGQFFDQHL<font color="red">K</font>FI<font color="red">K</font>LNQQFVHFTQLDLSYLQ<font color="red">R</font>EAYD<font color="red">R</font>DFLA<font color="red">R</font>VYGAPQLQVE<font color="red">K</font>V<font color="red">R</font>TND<font color="red">R</font><font color="red">K</font>ELGEV<font color="red">R</font>VQYTG<font color="red">R</font>DSF<font color="red">K</font>AFA<font color="red">K</font>A<br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">---------------------------------------------------------------------------------------------------</font><font color="green">A</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="gray">-------------------------------------------------------------------------------</font><font color="green">ELGEVRVQYTGR</font><font color="gray">---------</font><br><font color="gray">-----------------------------------------------------------------------------------------------</font><font color="green">AFAKA</font><br>400<br>|<br>LGVMDDL<font color="red">K</font>SGVP<font color="red">R</font>AGY<font color="red">R</font>GIVTFQF<font color="red">R</font>G<font color="red">R</font><font color="red">R</font>VHLAPPPTWEGYDPSWN<br><font color="gray">---------------------------------------------</font><br><font color="green">LGVMDDLK</font><font color="gray">-------------------------------------</font><br><font color="gray">---------------------------------------------</font><br><font color="gray">---------------------------------------------</font><br><font color="gray">---------------------------------------------</font><br><font color="green">LGVMDDLK</font><font color="gray">-------------------------------------</font></pre></td>
+  </tr>
+</table>
+<h3>
+  <b>How is information on the  &quot;Peptide Page&quot; organized?</b><a name="peptidepage"></a></h3>
+<p><font sixe="20">There are three types of information associated with each protein, if it is found in the HIP<sup>2</sup> database. They are:</font></p>
+<ol>
+  <li><strong>Peptide Summary. </strong>For example, the following shows a summary of the query peptide ALGVMDDLK, showing its amino acid sequence length. In addition, it provides a link to the PeptideAtlas database, if the peptide is sometimes recorded in the PeptideAtlas database (the peptide is not always found, since our database integrates more sources of data). It also provides a link to the SAPS (statistical analysis of protein sequences) server for researchers interested in analyzing peptide compositional patterns. </li><br>
+<table width="42%" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="7" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Peptide Summary </strong></font></td>
+  </tr>
+  <tr>
+    <td width="1%"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+    <td colspan="6"></td>
+  </tr>
+  <tr>
+    <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+    <td width="46%" colspan="1" valign="top" bgcolor="#ddffff">Peptide Sequence Length </td>
+    <td width="53%" colspan="5" valign="top">9</td>
+  </tr>
+  <tr>
+    <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+    <td colspan="1" bgcolor="#ddffff" valign="top">PeptideAtlas Peptide Search </td>
+    <td colspan="5" valign="top"><a href="https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/GetPeptide?atlas_build_name=Human%20PeptideAtlas%202007-04&amp;searchWithinThis=Peptide%20Sequence&amp;searchForThis=ALGVMDDLK&amp;query=QUERY">Search ALGVMDDLK</a></td>
+  </tr>
+  <tr>
+    <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+    <td colspan="1" bgcolor="#ddffff" valign="top">SAPS Peptide Statistical Analysis</td>
+    <td colspan="5" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/saps/saps?srchtype=interactive&amp;output=terse&amp;species=HUMAN&amp;counth=no&amp;sequence=ALGVMDDLK">Analyze ALGVMDDLK</a></td>
+  </tr>
+</table>
+
+  <br>
+  <li><strong>Experimental Evidence. </strong>For example, the following shows all the human proteins that can be found by the query peptide ALGVMDDLK. One of the protein IPI00000138 is found in the healthy human plasma proteome, whereas the other protein IPI00179044, even though coming from the same gene MGAT1, was not reported before. Such information may be used as the basis for further worthy investigations. </li>
+  <table cellspacing="0" cellpadding="0" align="center">
+    <tr>
+      <td colspan="5" valign="top"></td>
+    </tr>
+    <tr>
+      <td width="2"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="6"></td>
+    </tr>
+    <tr>
+      <td colspan="7" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Experimental Evidence </strong></font></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="6"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td width="247" colspan="1" valign="top" bgcolor="#ddffff"><div align="left">Total Number of Plasma Proteins Containing the Peptide </div></td>
+      <td colspan="5" valign="top"><strong>2</strong></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="6"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="6" valign="top"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#bbffff" valign="top"><div align="left">Protein #1</div></td>
+      <td colspan="5" valign="top"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">HIP2 DB Protein Entry</div></td>
+      <td colspan="5" valign="top"><a href="http://discover.uits.indiana.edu:8340/PlasmaProteins/hip_protein_evidence.php?catno=IPI00000138">Search IPI00000138</a> </td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">Protein Annotation</div></td>
+      <td colspan="5" valign="top">IPI:IPI00000138.1; SWISS-PROT:P26572;  TREMBL:Q59G70;Q6IBE3; ENSEMBL:ENSP00000332073; REFSEQ:NP_002397;  H-INV:HIT000018985; VEGA:OTTHUMP00000161546; Tax_Id=9606  Gene_Symbol=MGAT1 Alpha-1,3-mannosyl-glycoprotein  2-beta-N-acetylglucosaminyltransferase</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">Gene Symbol</div></td>
+      <td colspan="5" valign="top">MGAT1</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">Peptide Evidence</div></td>
+      <td colspan="5" valign="top">Evidence for the protein is found  distinctly in 3 data source(s), 3 MS experiment(s), 3 mass spectrometry  types, 2 MS search software, and 6 mapped peptide sequences.</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="6" valign="top"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#bbffff" valign="top"><div align="left">Protein #2</div></td>
+      <td colspan="5" valign="top"></td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">HIP2 DB Protein Entry</div></td>
+      <td colspan="5" valign="top"><a href="http://discover.uits.indiana.edu:8340/PlasmaProteins/hip_protein_evidence.php?catno=IPI00179044">Search IPI00179044</a> </td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">Protein Annotation</div></td>
+      <td colspan="5" valign="top">IPI:IPI00179044.1; TREMBL:Q8NBL8;  ENSEMBL:ENSP00000311888; Tax_Id=9606 Gene_Symbol=MGAT1 CDNA PSEC0120  fis, clone PLACE1002379, highly similar to Human alpha-  1,3-mannosyl-glycoprotein beta-1, 2-N-acetylglucosaminyltransferase  (MGAT) gene</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">Gene Symbol</div></td>
+      <td colspan="5" valign="top">MGAT1</td>
+    </tr>
+    <tr>
+      <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td colspan="1" bgcolor="#ddffff" valign="top"><div align="left">Peptide Evidence</div></td>
+      <td colspan="5" valign="top">No existing evidence is found for the plasma protein.</td>
+    </tr>
+  </table>
+  <br>
+  <li><strong>Peptide-protein Alignment Map.</strong> This map displays the full peptide sequence at the first line in the alignment map and all other proteins found in the IPI database (regardless of evidence found or not) shown in the same order they were initially introduced in the Experimental Evidence table earlier. All proteins are shown with trypsin cleavage sites (K & R, not followed by P) in red with other amino acids in black.  Users can use this map to examine the contexts of the peptides in all available proteins and determine what  proteins may likely or unlikely become inferred from peptide-to-protein experimental results.</li>
+</ol>
+  <table cellspacing="0" cellpadding="0" align="center">
+    <tr>
+      <td colspan="7" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Peptide-Protein Alignment Map </strong></font></td>
+    </tr>
+    <tr> </tr>
+    <tr>
+      <td width="7"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+      <td width="812" colspan="6"><div align="center">
+        <div align="left">
+          <pre>0<br>|<br><font color="gray">----------------------------------------------------------------------------------------------------</font><br>ML<font color="red">K</font><font color="red">K</font>QSAGLVLWGAILFVAWNALLLLFFWTRPAPGRPPSVSALDGDPASLT<font color="red">R</font>EVI<font color="red">R</font>LAQDAEVELE<font color="red">R</font>Q<font color="red">R</font>GLLQQIGDALSSQ<font color="red">R</font>G<font color="red">R</font>VPTAAPPAQP<font color="red">R</font>VPVT<br><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><br>100<br>|<br><font color="gray">----------------------------------------------------------------------------------------------------</font><br>PAPAVIPILVIACD<font color="red">R</font>STV<font color="red">R</font><font color="red">R</font>CLD<font color="red">K</font>LLHYRPSAELFPIIVSQDCGHEETAQAIASYGSAVTHI<font color="red">R</font>QPDLSSIAVPPDH<font color="red">R</font><font color="red">K</font>FQGYY<font color="red">K</font>IA<font color="red">R</font>HY<font color="red">R</font>WALGQVF<font color="red">R</font>QF<br><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font><font color="gray">.</font>ML<font color="red">K</font><font color="red">K</font>QSAGLVLWGAILFVAWNALLLLFFWTRPAPGRPPSVSALDGDPASLT<font color="red">R</font>EVF<font color="red">R</font>QF<br>200<br>|<br><font color="gray">----------------------------------------------------------------------------------------------------</font><br><font color="red">R</font>FPAAVVVEDDLEVAPDFFEYF<font color="red">R</font>ATYPLL<font color="red">K</font>ADPSLWCVSAWNDNG<font color="red">K</font>EQMVDASRPELLY<font color="red">R</font>TDFFPGLGWLLLAELWAELEP<font color="red">K</font>WP<font color="red">K</font>AFWDDWM<font color="red">R</font>RPEQ<font color="red">R</font>QG<br><font color="red">R</font>FPAAVVVEDDLEVAPDFFEYF<font color="red">R</font>ATYPLL<font color="red">K</font>ADPSLWCVSAWNDNG<font color="red">K</font>EQMVDASRPELLY<font color="red">R</font>TDFFPGLGWLLLAELWAELEP<font color="red">K</font>WP<font color="red">K</font>AFWDDWM<font color="red">R</font>RPEQ<font color="red">R</font>QG<br>300<br>|<br><font color="gray">---------------------------------------------------------------------------------------------------</font><font color="green">A</font><br><font color="red">R</font>ACIRPEIS<font color="red">R</font>TMTFG<font color="red">R</font><font color="red">K</font>GVSHGQFFDQHL<font color="red">K</font>FI<font color="red">K</font>LNQQFVHFTQLDLSYLQ<font color="red">R</font>EAYD<font color="red">R</font>DFLA<font color="red">R</font>VYGAPQLQVE<font color="red">K</font>V<font color="red">R</font>TND<font color="red">R</font><font color="red">K</font>ELGEV<font color="red">R</font>VQYTG<font color="red">R</font>DSF<font color="red">K</font>AFA<font color="red">K</font>A<br><font color="red">R</font>ACIRPEIS<font color="red">R</font>TMTFG<font color="red">R</font><font color="red">K</font>GVSHGQFFDQHL<font color="red">K</font>FI<font color="red">K</font>LNQQFVHFTQLDLSYLQ<font color="red">R</font>EAYD<font color="red">R</font>DFLA<font color="red">R</font>VYGAPQLQVE<font color="red">K</font>V<font color="red">R</font>TND<font color="red">R</font><font color="red">K</font>ELGEV<font color="red">R</font>VQYTG<font color="red">R</font>DSF<font color="red">K</font>AFA<font color="red">K</font>A<br>400<br>|<br><font color="green">LGVMDDLK</font><font color="gray">-------------------------------------</font><br>LGVMDDL<font color="red">K</font>SGVP<font color="red">R</font>AGY<font color="red">R</font>GIVTFQF<font color="red">R</font>G<font color="red">R</font><font color="red">R</font>VHLAPPPTWEGYDPSWN<br>LGVMDDL<font color="red">K</font>SGVP<font color="red">R</font>AGY<font color="red">R</font>GIVTFQF<font color="red">R</font>G<font color="red">R</font><font color="red">R</font>VHLAPPLTWEGYDPSWN</pre>
+        </div>
+      </div></td>
+    </tr>
+  </table>
+  <h3><font sixe="20"><b>How is information on the  &quot;Experimental Information Page&quot; organized?</b></font><font sixe="20"></font><a name="expinfopage"></a>
+    
+  </h3>
+  <p><font sixe="20"> This <b> Experimental Information Page </b> contains additional details about the experiment, including human subject's Ethnic Group, Gender, Sample Preparation Method, Protein Separation, Material Type, Peptide Separation, Depletion Method, and Reduction Method (treatment of cysteines),  if such information is disclosed in the source publication.       
+</font></p>
+<center>
+              <table width="31%" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td colspan="3" bgcolor="#669999" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><strong>Experimental Information </strong></font></td>
+                </tr>
+                <tr>
+                  <td width="2%"><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="2" valign="top"></td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td width="54%" colspan="1" valign="center" bgcolor="#ddffff">Experimental KeyCode</td>
+                  <td width="44%" colspan="1" valign="top">HUPO_E46.01</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Ethnic Group</td>
+                  <td colspan="1" valign="top">Chinese</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Gender</td>
+                  <td colspan="1" valign="top">ND</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Sample Preparation Method</td>
+                  <td colspan="1" valign="top">clot at room temp.</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Protein Seperation</td>
+                  <td colspan="1" valign="top">none</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Material Type</td>
+                  <td colspan="1" valign="top">Plasma </td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Peptide Seperation</td>
+                  <td colspan="1" valign="top">rp</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Depletion Method</td>
+                  <td colspan="1" valign="top">top6</td>
+                </tr>
+                <tr>
+                  <td><img src="http://discover.uits.indiana.edu:8340/img/shim.gif" height="1" width="1"> </td>
+                  <td colspan="1" bgcolor="#ddffff" valign="center">Reduction Method</td>
+                  <td colspan="1" valign="top">iam</td>
+                </tr>
+</table>
+              <p align="left">The following shows the abbreviations used in the experimental information table. </p>
+              <table align="center">
+                <tr>
+                  <td width="107" bgcolor="#ddffff"><strong>aig</strong></td>
+                  <td width="679">depletion of albumin and Ig</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>ig</strong></td>
+                  <td>depletion of Ig</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>top6</strong></td>
+                  <td> depletion of the most abundant proteins which are albumin, IgG, IgA, haptoglobin, alpha-1-anti-trypsin and transferrin</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>cho affinity</strong></td>
+                  <td> affinity chromatography</td>
+  
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>sds</strong></td>
+                  <td>sodium dodecyl sulfate polyacrylamide gel electrophoresis</td>
+
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>rotofor</strong></td>
+                  <td>rotofor TM apparatus for fractionations</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>iam</strong></td>
+                  <td>indoacetamide</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>scx</strong></td>
+                  <td>strong cation exchange</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong> none</strong></td>
+                  <td>not done</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ddffff"><strong>unknown</strong></td>
+                  <td>information not available</td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+<center>
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="HIP.html">Home</a>&nbsp;- <a href="dbstatistics.html">Logs &amp;  Statistics</a>&nbsp;- <a href="help.html">Help</a>&nbsp;- <a href="link.html">Link</a>&nbsp;- <a href="download.html">Download</a>&nbsp;- <a href="aboutus.html">About Us</a> - <a href="term.html">Terms &amp; Conditions</a></font></p>
+</center>
+            <table width="100%" border="0" cellspacing="16" cellpadding="0" align="center">
+              <tr>
+                <td align="center"><br>
+                    <!--<hr width=100% color=plum> -->
+                    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">For   questions,
+                      please contact Dr. Jake Y. Chen (<a href="mailto:jakechen@iupui.edu">jakechen@iupui.edu</a>) or Dr. Sudipto Saha (<a href="mailto:sahas@iupui.edu">sahas@iupui.edu</a></font>)</p>
+                    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">All Rights
+                    Reserved. Copyright &copy; 2007 by <a href="http://bio.informatics.iupui.edu/">Discovery Informatics and Computing Group</a>, Indiana University.</font></p></td>
+              </tr>
+            </table>
+ 
+            
+
+</body>
+</html>
